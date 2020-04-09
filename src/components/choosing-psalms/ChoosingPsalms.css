@@ -1,0 +1,56 @@
+
+.psalms-container {
+  direction: rtl;
+
+  width: 50%;
+  margin-right: 25%;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media (max-width: 500px) {
+  .psalms-container {
+    justify-content: space-around;
+  }
+}
+
+@media (max-width: 800px) {
+  .psalms-container {
+    width: 70%;
+    margin-right: 15%;
+  }
+}
+
+
+.num-of-books-read-header {
+  color: #2D468F;
+  font-size: 1.4rem;
+  padding-top: 20px;
+  margin-bottom: 40px;
+}
+
+.num-of-books-read {
+  color: #A6220D;
+  font-size: 1.8rem;
+  font-family: david;
+}
+
+
+#chooce-psalm-header {
+  color: #A34900;
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: -20px;
+  font-family: Georgia, serif;
+  letter-spacing: 1px;
+  text-shadow: 3px 1px 1px #7A3E47;
+ 
+}
+
+
+a {
+  text-decoration: none;
+}

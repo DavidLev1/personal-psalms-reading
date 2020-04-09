@@ -1,0 +1,83 @@
+.text-style {
+    color: #0A0612;
+    text-align: right;
+    font-size: 20px;
+    line-height: 150%;
+
+    width: 30%;
+    margin-right: 35%;
+}
+
+@media (max-width: 700px) {
+    .text-style {
+        width: 100%;
+        
+    }
+}
+
+@media (max-width: 1000px) {
+    .text-style {
+        width: 90%;
+        margin-right: 5%;
+    }
+}
+
+
+@media (max-width: 1300px) {
+    .text-style {
+        width: 70%;
+        margin-right: 15%;
+    }
+}
+
+
+.buttons-container {
+    direction: rtl;
+    margin-top: 40px;
+    text-align: right;
+}
+
+.finish-psalm-btn {
+    background-color: #033804; 
+    border: 3px solid #3D74AD;
+    border-radius: 8px;
+    color: #FFFE3C;
+    padding: 5px 7px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.finish-psalm-btn:hover {
+    cursor: pointer;
+    background-color: #146196; 
+    color: #5EFF27;
+    border: 3px solid #CF8613;
+    font-size: 17px;
+}
+
+.skip-psalm-btn {
+    background-color: #6E2470; 
+    border: 3px solid #3D74AD;
+    border-radius: 8px;
+    color: #00FFFF;
+    padding: 5px 7px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.skip-psalm-btn:hover {
+    cursor: pointer;
+    background-color: #033839; 
+    color: #DFFDDD;
+    border: 3px solid #800627;
+    font-size: 17px;
+}
+
+
+@media (max-width: 500px) {
+    .skip-psalm-btn {
+        margin-top: 20px;
+    }
+}

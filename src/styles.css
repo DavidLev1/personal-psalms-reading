@@ -1,0 +1,19 @@
+body, html {
+    height: 100%;
+    direction: rtl;
+   
+    animation-name: changing-body-background;
+    animation-duration: 500s;
+    animation-iteration-count: infinite;
+
+  }
+  
+  
+  @keyframes changing-body-background {
+    0%{background: linear-gradient(90deg, #B6E1FE 0%, #8ABECC 100%); transition-duration: 5s;}
+    25%{background: linear-gradient(90deg, #3DADA1 0%, #F0F5C6 100%); transition-duration: 5s;}
+    50%{background: linear-gradient(90deg, #F5DFC2 0%, #F5F4C9 100%); transition-duration: 5s;}
+    75%{background: linear-gradient(90deg, #C0DDFC 0%, #AEF2BF 100%); transition-duration: 5s;}   
+    100%{background: linear-gradient(90deg, #FCE9C0 0%, #F2F1AE 100%); transition-duration: 5s;}   
+  }
+  
